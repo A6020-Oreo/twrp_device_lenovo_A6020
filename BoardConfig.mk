@@ -1,5 +1,3 @@
-    
-84 lines (73 sloc)  2.71 KB
 #
 # Copyright (C) 2017 The Android Open Source Project
 #
