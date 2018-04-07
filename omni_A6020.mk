@@ -25,10 +25,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit language packages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-  
+
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    charger
+
+# Encryption
+PRODUCT_PACKAGES += \
+    libcryptfs_hw
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := A6020
 PRODUCT_NAME := omni_A6020
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := Vibe K5
+PRODUCT_MODEL := Vibe K5/K5+
 PRODUCT_MANUFACTURER := Lenovo
