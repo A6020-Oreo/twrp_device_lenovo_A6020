@@ -1,1 +1,2 @@
-# twrp_device_lenovo_A6020
+# TWRP Device Tree For Lenovo Vibe K5/K5+ (A6020)
+
