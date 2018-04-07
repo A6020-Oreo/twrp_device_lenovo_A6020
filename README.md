@@ -1,5 +1,5 @@
 # TWRP Device Tree For Lenovo Vibe K5/K5+ (A6020)
-============================================================================================================
+========================================================================================
 
 The Lenovo Vibe K5/K5 Plus (codenamed _"A6020"_) is a mid-range smartphone from Lenovo mobility.
 It was announced on February 2016.
