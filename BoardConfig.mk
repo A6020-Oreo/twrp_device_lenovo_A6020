@@ -53,8 +53,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
-TARGET_KERNEL_SOURCE := kernel/lenovo/msm8916
-TARGET_KERNEL_CONFIG := A6020_k5_defconfig
+TARGET_KERNEL_SOURCE := $(LOCAL_PATH)/recovery/kernel
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Partitions
